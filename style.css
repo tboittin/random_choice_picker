@@ -19,6 +19,7 @@ body {
 h3 {
   color: #fff;
   margin: 10px 0 20px;
+  text-align: center;
 }
 
 .container {
@@ -36,13 +37,20 @@ textarea {
   font-size: 16px;
 }
 
+#tags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .tag {
   background-color:  #f0932b;
   color: #fff;
   border-radius: 50px;
   padding: 10px 20px;
-  margin: 0 5px 10px 0;
+  margin: 10px 5px;
   font-size: 14px;
+  min-height: 38px;
   display: inline-block;
 }
 
